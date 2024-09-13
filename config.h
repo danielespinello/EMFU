@@ -6,11 +6,11 @@
 #define REWORK_TERZI
 #define	APP_CHECK_VAL				(0x12345677)			// Product ID
 #ifdef REWORK_TERZI
-	#define APP_VERSION					(0x4C323130)			// Version ID L2.. ogni byte < 0x80
+	#define APP_VERSION					(0x4C323131)			// Version ID L2.. ogni byte < 0x80
 #else
 	#define APP_VERSION					(0x4C323039)			// Version ID L2.. ogni byte < 0x80
 #endif
-#define HW_LEV						(0)						// 0 proto 1 production
+#define HW_LEV						(1)						// 0 proto 1 production
 #define STP_VER_ID					(0)						// STP Version
 #define DEBUG_TIMING				(1)
 #define I2C_ENA						(1)
